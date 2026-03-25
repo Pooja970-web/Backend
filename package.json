@@ -1,19 +1,25 @@
 {
+  "dependencies": {
+    "cat-me": "^1.0.3",
+    "express": "^5.2.1"
+  },
   "name": "completebackend",
   "version": "1.0.0",
-  "description": " a basic app to deploy",
-  "keywords": [
-    "node",
-    "practice"
-  ],
-  "license": "ISC",
-  "author": "Pooja Kushawaha",
-  "type": "commonjs",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "express": "^5.2.1"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pooja970-web/Backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Pooja970-web/Backend/issues"
+  },
+  "homepage": "https://github.com/Pooja970-web/Backend#readme"
 }
