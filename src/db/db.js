@@ -1,6 +1,5 @@
-const mongoose=require("mongoose");
+const mongoose =require("mongoose");
+
 async function connectDB(){
-  await mongoose.connect("mongodb+srv://bd:dbm12345@backend.5q99ozk.mongodb.net/halley")
-  console.log("DB connected");
+  await mongoose.connect(-process.env.MONGO_URL);
 }
-module.exports=connectDB;

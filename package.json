@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Pooja970-web/Backend#readme",
   "dependencies": {
+    "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "mongoose": "^9.4.1"
   }
