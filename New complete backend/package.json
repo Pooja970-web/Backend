@@ -1,0 +1,22 @@
+{
+  "name": "new-complete-backend",
+  "version": "1.0.0",
+  "description": "A basic backend app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "chai"
+  ],
+  "author": "Pooja Kushwaha",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "start": "^5.1.0"
+  }
+}
