@@ -1,3 +1,4 @@
+//how to make a server using express js
 require('dotenv').config()
 const express = require("express");
 const app = express();
@@ -17,7 +18,9 @@ app.get("/about", (req, res) => {
 app.get("/login", (req, res) => {
   res.send("<h1>we are now at Login page</h1>");
 });
-
-app.listen(process.env.PORT, () => {
+app.get('/youtube',(regq,res)=>{
+  res.send("<h1>we are now at youtube page</h1>")
+})
+app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
